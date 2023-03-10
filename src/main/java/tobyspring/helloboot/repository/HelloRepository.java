@@ -1,4 +1,6 @@
-package tobyspring.helloboot;
+package tobyspring.helloboot.repository;
+
+import tobyspring.helloboot.Hello;
 
 public interface HelloRepository {
     Hello findHello(String name);

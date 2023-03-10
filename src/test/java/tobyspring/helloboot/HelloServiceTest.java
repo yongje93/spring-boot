@@ -1,6 +1,9 @@
 package tobyspring.helloboot;
 
 import org.junit.jupiter.api.Test;
+import tobyspring.helloboot.repository.HelloRepository;
+import tobyspring.helloboot.service.HelloDecorator;
+import tobyspring.helloboot.service.SimpleHelloService;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

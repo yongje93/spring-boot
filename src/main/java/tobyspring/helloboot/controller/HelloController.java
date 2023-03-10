@@ -1,7 +1,8 @@
-package tobyspring.helloboot;
+package tobyspring.helloboot.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import tobyspring.helloboot.service.HelloService;
 
 @RestController
 public class HelloController {

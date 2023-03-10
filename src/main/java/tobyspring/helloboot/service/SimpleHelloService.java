@@ -1,7 +1,8 @@
-package tobyspring.helloboot;
+package tobyspring.helloboot.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import tobyspring.helloboot.repository.HelloRepository;
 
 @Service
 @RequiredArgsConstructor
